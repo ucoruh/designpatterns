@@ -1,4 +1,4 @@
-package designpatterns.factorymethod;
+package designpatterns.factorymethodlogistics;
 
 public class Logistics implements Transport {
 		
@@ -8,7 +8,7 @@ public class Logistics implements Transport {
 
 	public void deliver() {
 		System.out.println("Logistic Deliver");
-		
 	}
+
 	
 }

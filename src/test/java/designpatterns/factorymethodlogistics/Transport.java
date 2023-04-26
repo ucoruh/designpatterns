@@ -1,4 +1,4 @@
-package designpatterns.factorymethod;
+package designpatterns.factorymethodlogistics;
 
 public interface Transport {
 
