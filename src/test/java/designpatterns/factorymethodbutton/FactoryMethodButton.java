@@ -12,9 +12,7 @@ public class FactoryMethodButton {
 			dialog = new WindowsDialog();
 		}
 		
-		
 		dialog.render();
-
 	}
 
 }

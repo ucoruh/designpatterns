@@ -1,14 +1,14 @@
 package designpatterns.factorymethodlogistics;
 
-public class Logistics implements Transport {
-		
-	public Logistics createTransport() {
-		return null;
+public abstract class Logistics {
+
+	public void planDelivery() {
+
+		Transport t = createTransport();
+
+		t.deliver();
 	}
 
-	public void deliver() {
-		System.out.println("Logistic Deliver");
-	}
+	public abstract Transport createTransport();
 
-	
 }
